@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags for character set and viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of the page -->
+  <title>Mondrian Project | Mihir</title>
+
+  <!-- Preconnecting to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Importing and applying the Baloo Bhai 2 font -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+
+  <!-- CSS Styles -->
+  <style>
+
+    /* body styling */
+    body{
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Hover effect for the heading */
+    h1:hover {
+      text-shadow: 3px 3px 6px #77a0c9;
+    }
+
+    /* Styling for the main container */
+    .container {
+      background-color: #000;
+      display: grid;
+      gap: 9px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      height: 746px;
+      width: 748px;
+    }
+
+    /* Hover effect for the main container */
+    .container:hover {
+      box-shadow: 10px 10px 20px black;
+    }
+
+    /* Styling for the red block */
+    .red {
+      width: 320px;
+      height: 414px;
+      background-color: #E72F24;
+      grid-area: 1/1/2/2;
+    }
+
+    /* Styling for the first white block */
+    .white1 {
+      width: 419px;
+      height: 414px;
+      background-color: #F0F1EC;
+      grid-area: 1/2/2/5;
+    }
+
+    /* Styling for the second white block */
+    .white2 {
+      width: 320px;
+      height: 295px;
+      background-color: #F0F1EC;
+      grid-area: 2/1/4/2;
+    }
+
+    /* Styling for the third white block */
+    .white3 {
+      background-color: #F0F1EC;
+      width: 360px;
+      height: 296px;
+      grid-area: 2/2/4/4;
+    }
+
+    /* Styling for the blue block */
+    .blue {
+      background-color: #004592;
+      width: 50px;
+      height: 130px;
+      grid-area: 2/4/3/5;
+    }
+
+    /* Styling for the fourth white block */
+    .white4 {
+      background-color: #F0F1EC;
+      width: 320px;
+      height: 20px;
+      grid-area: 4/1/5/2;
+    }
+
+    /* Styling for the yellow block */
+    .yellow {
+      background-color: #F9D01E;
+      height: 20px;
+      width: 198px;
+      grid-area: 4/2/5/3;
+    }
+
+    /* Styling for the fifth white block */
+    .white5 {
+      background-color: #F0F1EC;
+      height: 184px;
+      grid-area: 3/4/5/5;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Main container with various colored blocks -->
+  <div class="container">
+    <div class="red"></div>
+    <div class="white1"></div>
+    <div class="white2"></div>
+    <div class="white3"></div>
+    <div class="blue"></div>
+    <div class="white4"></div>
+    <div class="yellow"></div>
+    <div class="white5"></div>
+  </div>
+</body>
+
+</html>
